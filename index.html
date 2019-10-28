@@ -23,18 +23,357 @@
         <script src="/js/libraries/leaflet/leaflet-languageselector.js"></script>
 
         <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/wfa8thc.css">
     </head>
 
     <body>
+        <div class="topbar">
+            <h1 id="domainname">putthedomeup.com</h1>
+            <p>alerts</p>
+        </div>
+        <div class="left">
+            <div class="timebar">
+                <div class="time">
+                    <h1 id="time">Time</h1>
+                    <p>1400</p>
+                </div>
+                <div class="today">
+                    <h1>Today's Date</h1>
+                    <p>11/11/11</p>
+                </div>
+            </div>
+            <div class="tempbar">
+                <div class="t1">
+                    <h1>Current Temperature</h1>
+                </div>
+                <div class="t2">
+                    <h1>Feels Like</h1>
+                    <p>100˚</p>
+                </div>
+                <div class="t3">
+                    <h1>Real</h1>
+                    <p>100˚</p>
+                </div>
+                <div class="t4">
+                    <h1>High – Low</h1>
+                    <p>50-100˚</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="topgrid">
+                <div class="locationbar">
+                    <p>Zipcode:</p>
+                    <p>entrybar</p>
+                </div>
+                <div class="precipitation">
+                    <h1>Today's Precipitation</h1>
+                    <p>100%</p>
+                </div>
+                <div class="currentweather">
+                    <p>icon</p>
+                </div>
+                <div class="radar">
+                    <p>please shut up that i don't have link yet</p>
+                </div>
+            </div>
+            <div class="middlegrid">
+                <div class="sunrisesunset">
+                    <div class="half1">
+                        <h4>sunrise icon</h4>
+                        <p>500</p>
+                    </div>
+                    <div class="half2">
+                        <h4>sunset icon</h4>
+                        <p>2100</p>
+                    </div>
+                </div>
+                <div class="airquality">
+                    <h4>Air Quality</h4>
+                    <p>1-000</p>
+                </div>
+                <div class="coverage">
+                    <h4>Coverage</h4>
+                    <p>50%</p>
+                </div>
+                <div class="wind">
+                    <div class="half1">
+                        <h4>Wind Speed</h4>
+                        <p>3 mph</p>
+                    </div>
+                    <div class="half2">
+                        <h4>Wind Direction</h4>
+                        <p>West</p>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <h4>Humidity</h4>
+                    <p>100%</p>
+                </div>
+                <div class="uvindex">
+                    <h4>UV Index</h4>
+                    <p>1/10</p>
+                </div>
+                <div class="pressure">
+                    <h4>Pressure</h4>
+                    <p>00.00in</p>
+                </div>
+                <div class="dewpoint">
+                    <h4>Dew Point</h4>
+                    <p>36˚</p>
+                </div>
+                <div class="visibility">
+                    <h4>Visibility</h4>
+                    <p>__ Mi</p>
+                </div>
+            </div>
+            <div class="forecast">
+                <h1>Forecast</h1>
+            </div>
+            <div class="bottomgrid">
+                <div class="date1">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <h2>Precipitation</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <h2>Humidity</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <h>sunrise icon</h>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforecast">
+                        <h2>Coverage</h2>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <h2>Air Quality</h2>
+                        <p>1-100</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+                <div class="date2">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <h2>Precipitation</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <h2>Humidity</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <h>sunrise icon</h>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforest">
+                        <h2>Coverage</h2>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <h2>Air Quality</h2>
+                        <p>1-100</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+                <div class="date3">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p> 0 — 100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <h2>Precipitation</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <h2>Humidity</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <p>sunrise icon</p>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforest">
+                        <h2>Coverage</h2>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <h2>Air Quality</h2>
+                        <p>1-100</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+                <div class="date4">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <h2>Precipitation</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <h2>Humidity</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <p>sunrise icon</p>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforest">
+                        <h2>Coverage</h2>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <h2>Air Quality</h2>
+                        <p>1-100</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+                <div class="date5">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <p>Precipitation</p>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <p>Humidity</p>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <p>sunrise icon</p>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforest">
+                        <p>Coverage</p>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <p>Air Quality</p>
+                        <p>1-100</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+                <div class="date6">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <h2>Precipitation</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <h2>Humidity</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <p>sunrise icon</p>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforest">
+                        <h2>Coverage</h2>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <p>Air Quality</p>
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+                <div class="date7">
+                    <div class="dateof">
+                        <h4>Date</h4>
+                    </div>
+                    <div class="highlowforecast">
+                        <p>0-100˚</p>
+                    </div>
+                    <div class="precipationforecast">
+                        <h2>Precipitation</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="forecastdescription">
+                        <p>icon</p>
+                    </div>
+                    <div class="humidityforecast">
+                        <h2>Humidity</h2>
+                        <p>0%</p>
+                    </div>
+                    <div class="sunrisesunsetforecast">
+                        <p>sunrise icon</p>
+                        <p>time</p>
+                        <p>sunset icon</p>
+                        <p>time</p>
+                    </div>
+                    <div class="coverageforest">
+                        <h2>Coverage</h2>
+                        <p>100%</p>
+                    </div>
+                    <div class="airqualityforecast">
+                        <h2>Air Quality</h2>
+                        <p>0-100</p>
+                    </div>
+                    <div class="colorbottombar"></div>
+                </div>
+            </div>
+        </div>
 
 
-
-        <input placeholder="Enter Your ZIP Code" name="name" id="zip" />
-        <p id="zip_display"></p>
-
-
-        <div class="results" id="app">
-            <h1>TIME</h1>
+            <!-- <h1>TIME</h1>
             <p>{{time.day}}</p>
             <p>{{time.date}}</p>
             <p>{{time.hour_12}} : {{time.minute}} : {{time.seconds}} {{time.ampm}}</p>
@@ -84,7 +423,7 @@
 
             <h1>FORECAST</h1>
             <h4>Day 1</h4>
-            <p  class="degree_symbol">High - {{forecast[0].max_temp}}</p>
+            <p  class="degree_symbol">High - {{forecast[0].max_temp}}</h2>
             <p  class="degree_symbol">Low - {{forecast[0].min_temp}}</p>
             <p>{{forecast[0].uv}}</p>
             <p>{{forecast[0].weather.description}}</p>
@@ -102,7 +441,7 @@
             <p>{{forecast[0].snow}}</p>
 
             <p>{{forecast[0].dewpt}}</p>
-            <p>{{forecast[0].pres}} mb</p>
+            <p>{{forecast[0].pres}} mb</p> -->
 
         </div>
         <div id="map"></div>
@@ -113,3 +452,17 @@
         <script src="/js/script.js" type="module"></script>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+        <input placeholder="Enter Your ZIP Code" name="name" id="zip" />
+        <p id="zip_display"></p>
+
+
+        <div class="results" id="app">
