@@ -487,7 +487,8 @@ background-color: #FFCE00;
     .forecastdescription{
         padding: .5vw;
     }
-    
+
+  
 .date1 { 
     display: grid;
     grid-template-rows: 7vh 7vh 7vh 7vh 7vh 7vh 7vh 7vh 7vh; 
